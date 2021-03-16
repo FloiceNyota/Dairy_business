@@ -21,8 +21,6 @@ var leapYearReport = function(){
       }
     }
     
-    
-    
     var incomeOverTime = function(sellingPrice,time){
         if(time=="weekly"){
             console.log("Your weekly income will be " + sellingPrice * 7 *1876);
@@ -30,8 +28,8 @@ var leapYearReport = function(){
             console.log("Your yearly income will be " + sellingPrice * 365 * 1876);
         }
     }
-    
-    // incomeOverTime(45,"weekly");
+
+     incomeOverTime(45,"weekly");
     
     var shedReports = function(){
     var display = document.getElementById("display")
